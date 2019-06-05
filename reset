@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo ">>>>> RESETTING REPO - $1"
+cd "../$1"
+git reset --hard
+rm -rf node_modules
+npm i

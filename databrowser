@@ -1,0 +1,14 @@
+#!/bin/bash
+
+./fixModule rdflib.js
+./fixModule solid-ui
+./fixModule pane-registry
+./fixModule chat-pane
+./fixModule contacts-pane
+./fixModule folder-pane
+./fixModule issue-pane
+./fixModule meeting-pane
+./fixModule source-pane
+./fixModule solid-panes
+./fixModule mashlib
+./fixModule node-solid-server
